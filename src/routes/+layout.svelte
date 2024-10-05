@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
+	import { Toast, initializeStores } from '@skeletonlabs/skeleton';
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
@@ -9,7 +10,7 @@
 	import css from 'highlight.js/lib/languages/css';
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import typescript from 'highlight.js/lib/languages/typescript';
-
+	initializeStores();
 	hljs.registerLanguage('xml', xml); // for HTML
 	hljs.registerLanguage('css', css);
 	hljs.registerLanguage('javascript', javascript);
@@ -22,6 +23,7 @@
   	import Navbar from '$lib/Components/Navbar.svelte';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
+<Toast/>
 <div class="bg-white ">
 	<Navbar>
 		<div class="flex h-full w-full items-center justify-center">

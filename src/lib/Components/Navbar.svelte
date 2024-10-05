@@ -5,7 +5,7 @@
 <nav class="bg-base fixed w-full z-10 top-0 shadow-lg">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
-            <a class="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <a class="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
                 Lese Trainer
             </a>
         </div>
@@ -26,6 +26,9 @@
                 </li>
                 <li class="mr-3">
                     <a class="inline-block py-2 px-4 text-white no-underline hover:text-gray-200 hover:text-underline" href="/add-word">Worte Hinzufügen</a>
+                </li>
+                <li class="mr-3">
+                    <a class="inline-block py-2 px-4 text-white no-underline hover:text-gray-200 hover:text-underline" href="/settings">Einstellungen</a>
                 </li>
             </ul>
         </div>
