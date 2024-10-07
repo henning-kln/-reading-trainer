@@ -24,10 +24,10 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 <Toast/>
-<div class="bg-white ">
+<div class="">
 	<Navbar>
-		<div class="flex h-full w-full items-center justify-center">
-			<div class="flex rounded-lg w-8/12 border h-96 bg-black/20 flex-col space-y-2 items-center p-2">
+		<div class="flex h-full w-full items-center justify-center text-white">
+			<div class="flex rounded-lg w-8/12 border min-h-96 bg-black/20 flex-col space-y-2 items-center p-2">
 				<slot />
 			</div>
 		</div>

@@ -2,7 +2,7 @@
     let isOpen = false;
 </script>
 
-<nav class="bg-base fixed w-full z-10 top-0 shadow-lg">
+<nav class="bg-surface-700 fixed w-full z-[1000] top-0 shadow-lg">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
             <a class="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
@@ -35,7 +35,7 @@
     </div>
 </nav>
 
-<main class="mt-16 bg-white w-full">
+<main class="mt-16 w-full z-0">
     <!-- Your main content goes here -->
     <slot />
 </main>
